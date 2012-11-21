@@ -1,0 +1,68 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gbaapp.goinbandassociation"
+    android:versionCode="1"
+    android:versionName="0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:name="GoinBandAssociation"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher"
+        android:theme="@style/MainActivity" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gbaapp.goinbandassociation.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ScheduleActivity"
+            android:label="@string/title_activity_schedule" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gbaapp.goinbandassociation.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gbaapp.goinbandassociation.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HotelsActivity"
+            android:label="@string/title_activity_hotels" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gbaapp.goinbandassociation.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SurveyActivity"
+            android:label="@string/title_activity_survey" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gbaapp.goinbandassociation.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gbaapp.goinbandassociation.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

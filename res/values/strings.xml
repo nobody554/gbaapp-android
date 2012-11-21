@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">GBA App</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">GBA App</string>
+    <string name="header_string">header_string</string>
+    <string name="info_string">INFO</string>
+    <string name="calendar_string">SCHEDULE</string>
+    <string name="maps_string">MAPS</string>
+    <string name="hotels_string">HOTELS</string>
+    <string name="survey_string">SURVEY</string>
+    <string name="contact_string">CONTACT</string>
+    <string name="youtube_string">YOUTUBE</string>
+    <string name="twitter_string">TWITTER</string>
+    <string name="facebook_string">FACEBOOK</string>
+    <string name="title_activity_info">Info</string>
+    <string name="about_title">About GBA</string>
+    <string name="about_paragraph">The purpose of the Goin\' Band Association is to provide support and resources to improve the quality and success of the Texas Tech University Band. The Goin\' Band Association will support the growth and quality of the Texas Tech University (Tech) Band by: developing and utilizing alumni resources, and pursuing resources from private individuals and institutions to provide financial and material support to the Tech Band program in an endeavor to promote and sustain the Tech Band as one of the premier band programs in the United States.</string>
+    <string name="board_title">Board of Directors</string>
+    <string name="board_paragraph">Kurtis Gonzales - President\nKara Hyden - Vice President\nChris Brewer - Treasurer\nNancy (Owens) Schunke - Secretary\nAlbert Vega - Membership\nRicky Garza - Webmaster\nHerman Alsup\nJay Sedberry\nCyndy (Hermann) Porter\nBrent Tyson\nStephen Bearden\n\nNon-Voting Members\nDuane Hill - Goin\' Band Director\nKeith Dye - Assistant Director of Bands\nSarah McKoin - Director of Bands\nElizabeth Howell - Goin\' Band President\nConner Davis - KKY President\nAmanda Gray - TBS President</string>
+    <string name="title_activity_schedule">Schedule of Events</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_hotels">HotelsActivity</string>
+    <string name="title_activity_survey">SurveyActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+
+</resources>

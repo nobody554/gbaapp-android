@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="175sp"
+        android:layout_height="175sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/header_string"
+        android:src="@drawable/header" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/calendar_string"
+        android:src="@drawable/calendar_logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_marginLeft="38sp"
+        android:layout_toRightOf="@+id/imageButton3"
+        android:contentDescription="@string/maps_string"
+        android:src="@drawable/maps_logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_marginRight="38sp"
+        android:layout_toLeftOf="@+id/imageButton3"
+        android:contentDescription="@string/info_string"
+        android:scaleType="center"
+        android:src="@drawable/info_logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="38sp"
+        android:contentDescription="@string/hotels_string"
+        android:src="@drawable/hotels_logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/survey_string"
+        android:src="@drawable/survey_logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignRight="@+id/imageButton4"
+        android:layout_alignTop="@+id/imageButton6"
+        android:contentDescription="@string/contact_string"
+        android:src="@drawable/contact_logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/imageButton5"
+        android:layout_below="@+id/imageButton5"
+        android:layout_marginTop="38sp"
+        android:contentDescription="@string/youtube_string"
+        android:src="@drawable/yt_logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignTop="@+id/imageButton8"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/facebook_string"
+        android:src="@drawable/f_logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignRight="@+id/imageButton7"
+        android:layout_alignTop="@+id/imageButton9"
+        android:contentDescription="@string/twitter_string"
+        android:src="@drawable/t_logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/imageButton2"
+        android:layout_below="@+id/imageButton2"
+        android:gravity="center"
+        android:text="@string/info_string" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/calendar_string" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageButton4"
+        android:layout_below="@+id/imageButton4"
+        android:text="@string/maps_string" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton5"
+        android:layout_below="@+id/imageButton5"
+        android:text="@string/hotels_string" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton6"
+        android:layout_centerHorizontal="true"
+        android:text="@string/survey_string" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignRight="@+id/imageButton7"
+        android:text="@string/contact_string" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton8"
+        android:layout_below="@+id/imageButton8"
+        android:text="@string/youtube_string" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:text="@string/facebook_string" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignRight="@+id/imageButton10"
+        android:text="@string/twitter_string" />
+
+</RelativeLayout>
